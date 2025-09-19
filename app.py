@@ -7,7 +7,7 @@ from openai import OpenAI
 from io import BytesIO
 import re
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 st.set_page_config(page_title="Automation Idea Generator", page_icon="⚡", layout="centered")
 
